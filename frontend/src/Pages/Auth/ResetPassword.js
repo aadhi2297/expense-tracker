@@ -18,7 +18,7 @@ const ResetPassword = () => {
     setLoading(true);
     try {
       const { data } = await axios.post(
-        `http://localhost:5000/api/auth/reset-password/${token}`,
+        `https://expense-tracker-backend-k3xp.onrender.com/api/auth/reset-password/${token}`,
         { password }
       );
       toast.success(data.message);
