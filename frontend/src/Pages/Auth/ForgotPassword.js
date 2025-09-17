@@ -21,7 +21,7 @@ const ForgotPassword = () => {
         { email }
       );
       toast.success(data.message);
-      setResetLink(data.previewURL || "https://expense-tracker-backend-k3xp.onrender.com/api/auth/resetPassword");
+      setResetLink(data.previewURL || "");
     } catch (err) {
       toast.error(err.response?.data?.message || "Something went wrong");
     }
