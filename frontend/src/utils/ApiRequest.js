@@ -1,4 +1,4 @@
-const host = "https://expense-tracker-backend-k3xp.onrender.com";
+export const host = "https://expense-tracker-backend-k3xp.onrender.com";
 //const host = "http://localhost:5000";
 export const setAvatarAPI = `${host}/api/auth/setAvatar`;
 export const registerAPI = `${host}/api/auth/register`;
