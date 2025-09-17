@@ -17,7 +17,7 @@ const ForgotPassword = () => {
     setLoading(true);
     try {
       const { data } = await axios.post(
-        "http://localhost:5000/api/auth/forgot-password",
+        "https://expense-tracker-backend-k3xp.onrender.com/api/auth/forgot-password",
         { email }
       );
       toast.success(data.message);
