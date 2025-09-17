@@ -158,7 +158,7 @@ export const forgotPasswordController = async (req, res) => {
     user.resetPasswordExpire = Date.now() + 15 * 60 * 1000; // 15 mins
     await user.save();
 
-    const resetUrl = `https://expense-tracker-backend-k3xp.onrender.com/api/auth/ResetPassword`;
+    const resetUrl = `https://expense-tracker-backend-k3xp.onrender.com/reset-password/${resetToken}`;
 
     let testAccount = await nodemailer.createTestAccount();
 
