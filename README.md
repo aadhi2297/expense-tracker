@@ -1,9 +1,7 @@
 
 # Expense Management System using MERN Stack
 
-### Live Website: https://main.d1sj7cd70hlter.amplifyapp.com/
-
-### render Link: https://expense-tracker-frontend-h5nu.onrender.com
+### Live Website: https://expense-tracker-frontend-h5nu.onrender.com
 
 ## Project Description:
 
